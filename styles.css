@@ -1,0 +1,24 @@
+body {
+  background: lightblue;
+  width: 100ch;
+  margin-left: 5ch;
+  margin-top: 5ch;
+}
+
+iframe {
+  border: 4px solid black;
+  width: 100%;
+}
+
+div {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
